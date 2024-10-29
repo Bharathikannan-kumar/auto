@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/App")
 public class autoappController {
 
-	@GetMapping(value = "show")
+	@GetMapping(value = "/show")
 	public String show() {
 		return "Welcome Bharathi";
 	}
